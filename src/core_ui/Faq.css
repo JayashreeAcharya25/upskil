@@ -1,0 +1,138 @@
+.faq{
+    margin: 60px 0;
+}
+
+.faq .block-container{
+    width: 85%;
+    margin: auto;
+}
+
+.faq .heading{
+    position: relative;
+    text-align: left;
+}
+
+.faq .heading h2{
+    font-size: 40px;
+}
+
+.faq .block-section{
+    margin-bottom: 25px;
+    height: 50vh;
+    grid-template-columns: 0.8fr 2.2fr;
+}
+
+.faq .image-section{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.faq .image-section .block-elements{
+    margin: auto 0;
+}
+
+.faq .image-section .block-elements img{
+    width: 540px;
+    height: 335px;
+}
+
+.faq .image-section .block-list{
+    width: 70%;
+    margin: auto;
+}
+
+.faq .image-section .block-list h2{
+    font-size: 35px;
+}
+
+.faq .block-section .accordion-flush .accordion-item:first-child{
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.faq .accordion-button{
+    font-size: 22px;
+}
+
+.faq .accordion-button:not(.collapsed){
+    background: var(--white) !important;
+    color: var(--black);
+}
+
+.faq .accordion-button:focus{
+    border-color: var(--white);
+    box-shadow: none
+}
+
+.faq .accordion-button::after{
+    background: #ffe01b url('../assets/images/icon-chevron-down.png') no-repeat center;
+    background-size: 18px auto;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Media queries for tablet and larger screens */
+@media screen and (min-width: 768px) {
+    .faq .block-section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: auto; /* Adjust height as needed */
+    }
+
+    
+
+    .faq .block-elements {
+        order: 1;
+    }
+
+    .faq .block-elements .heading {
+        text-align: left;
+    }
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+
+    .faq {
+        height: auto;
+    }
+
+    .faq .heading h2 {
+        font-size: 36px;
+    }
+
+    .faq .block-section {
+        display: block;
+        height: auto; /* Adjust height as needed */
+    }
+
+    .faq .block-elements {
+        order: 2;
+    }
+
+    .faq .image-section .block-list h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .faq .image-section .block-list{
+        width: 100%;
+    }
+
+    .faq .image-section{
+        flex-direction: column-reverse;
+    }
+
+    .faq .image-section .block-elements img{
+        width: 100%;
+        height: auto;
+    }
+
+    .faq .block-elements .heading {
+        text-align: left;
+    }
+
+    .faq .accordion-button{
+        font-size: 20px;
+    }
+}

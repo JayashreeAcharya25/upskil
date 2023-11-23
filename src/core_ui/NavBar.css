@@ -1,0 +1,156 @@
+/* Common styles for all screen sizes */
+.navbar {
+    height: 68px !important;
+    width: 100%;
+    background: var(--f8f9fa);
+}
+
+.navbar .navbar-top {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-top .section img {
+    height: 60px;
+}
+
+.navbar .navbar-top .section .nav-list {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-top .section .nav-list .nav-link {
+    padding: 6px 24px;
+}
+
+.navbar .navbar-top .section .nav-list a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+}
+
+.navbar .navbar-top .section .nav-list .shopping-cart {
+    height: 16px;
+    width: 16px;
+}
+
+.navbar .navbar-top .section .nav-list .nav-btn {
+    padding: 6px 25px;
+    font-size: 14px;
+}
+
+.navbar .navbar-top .section .menu-toggle,
+.navbar .navbar-top .section .menu-icon  {
+    display: none;
+}
+
+/* Media queries for tablet */
+@media screen and (max-width: 768px) {
+    .navbar .navbar-top .section .nav-list {
+        display: none; /* Hide the nav links by default on smaller screens */
+        flex-direction: column;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        background-color: var(--f8f9fa);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .navbar-top .section .nav-list.active {
+        display: flex; /* Show the nav links when the checkbox is checked */
+    }
+
+    .navbar .navbar-top .section .nav-list .nav-link {
+        padding: 12px 24px;
+        text-align: center;
+    }
+
+    .navbar .navbar-top .section .nav-list .shopping-cart,
+    .navbar .navbar-top .section .nav-list .nav-btn {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar .navbar-top .section .menu-toggle {
+        display: block;
+        cursor: pointer;
+        order: 2;
+    }
+
+    .navbar .navbar-top .section .menu-icon {
+        display: none;
+        cursor: pointer;
+        order: 1;
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .navbar .navbar-top .section input:checked + .menu-icon {
+        display: block; /* Show the hamburger icon when the checkbox is checked */
+    }
+
+    .navbar .navbar-top .section input:checked + .menu-icon + .nav-list {
+        display: flex; /* Show the nav links when the checkbox is checked */
+    }
+}
+
+/* Media queries for tablet and mobile */
+@media screen and (max-width: 768px) {
+    .navbar .navbar-top .section .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        background-color: var(--f8f9fa);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar .navbar-top .section .nav-list.active {
+        display: flex;
+    }
+
+    .navbar .navbar-top .section .nav-list .nav-link {
+        padding: 12px 24px;
+        text-align: center;
+    }
+
+    .navbar .navbar-top .section .nav-list .shopping-cart,
+    .navbar .navbar-top .section .nav-list .nav-btn {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .navbar .navbar-top .section .menu-toggle {
+        display: none;
+        cursor: pointer;
+        order: 2;
+        z-index: 1;
+    }
+
+    .navbar .navbar-top .section .menu-toggle:checked + .nav-list {
+        display: flex;
+    }
+
+    .navbar .navbar-top .section .menu-toggle:checked + .menu-icon {
+        display: block;
+    }
+
+    .navbar .navbar-top .section .menu-toggle:not(:checked) + .menu-icon {
+        display: block;
+    }
+
+    .navbar .navbar-top .section .menu-icon {
+        display: block;
+        cursor: pointer;
+        order: 1;
+        font-size: 24px;
+        padding: 12px;
+    }
+}

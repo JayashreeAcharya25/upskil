@@ -1,0 +1,192 @@
+.learner .heading {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.learner .certificate-title {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.learner .heading-highlighter {
+  color: var(--primary);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.learner .heading-subtext{
+    width: 65%;
+    margin: 35px auto;
+    font-size: 18px
+}
+
+.learner .carousel-container{
+    display: flex !important;
+    padding: 30px 15px;
+    justify-content: center;
+}
+
+.learner .carousel-container .carousel-card{
+    width: 350px !important;
+    /* height: 311px !important; */
+    position: relative !important;
+    margin: 0 20px;
+    border: 1px solid var(--eee);
+    border-radius: 4px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.learner .carousel-container .carousel-card .testimonial{
+    width: auto;
+    height: 318px;
+    border-radius: 4px;
+}
+
+.learner .carousel-container .carousel-card .carousel-card-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 12px;
+    padding: 20px 20px 7px 20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.learner .carousel-container .carousel-card-container .quote-wrapper {
+    width: 55px;
+    height: 55px;
+    position: absolute!important;
+    top: -28px;
+    background-color: var(--color-blue);
+    border-radius: 50%!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    z-index: 2;
+}
+
+.learner .carousel-container .carousel-card-container .quote-wrapper img {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+.learner .carousel-container .carousel-card-container .carousel-card-body{
+    padding: 16px;
+    flex: 1 1 auto;
+
+}
+
+.learner .carousel-container .carousel-card-container .carousel-card-body p{
+    line-height: 1.6;
+    height: 170px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 7;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.learner .carousel-container .carousel-card-container .carousel-card-footer{
+    display: flex;
+    padding: 0 16px 16px;
+    column-gap: 15px;
+}
+
+.learner .carousel-container .carousel-card-container .carousel-card-footer img{
+    height: 55px;
+    width: 55px;
+}
+
+/* Media queries for tablet */
+@media screen and (max-width: 768px) {
+    .learner{
+        height: auto;
+    }
+    
+    .learner .heading-subtext {
+      width: 80%;
+    }
+  
+    .learner .carousel-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .learner .carousel-container .carousel-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Media queries for mobile */
+  @media screen and (max-width: 480px) {
+    .learner{
+        height: auto;
+    }
+
+    .learner .heading {
+        margin-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .learner .certificate-title {
+      font-size: 25px;
+      column-gap: 10px;
+    }
+
+    .learner .heading-subtext{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+  
+    .learner .heading-highlighter::after {
+      right: 0;
+      bottom: 83px;
+    }
+  
+    .learner .carousel-container .carousel-card {
+      width: 100%;
+      margin: 0;
+    }
+
+    .learner .carousel-container .carousel-card-container .quote-wrapper{
+        width: 45px;
+        height: 45px;
+    }
+
+    .learner .carousel-container .carousel-card-container .quote-wrapper img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .learner .carousel-container{
+        row-gap: 35px;
+    }
+
+    .learner .carousel-container .carousel-card-container .carousel-card-body{
+        padding: 0;
+    }
+
+    .learner .carousel-container .carousel-card-container .carousel-card-body p{
+        font-size: 13px;
+        height: 150px;
+    }
+
+    .learner .carousel-container .carousel-card-container .carousel-card-footer img{
+        height: 45px;
+        width: 45px;
+    }
+
+    .learner .carousel-container .carousel-card-container .carousel-card-footer p{
+        font-size: 13px;
+    }
+  }
