@@ -6,7 +6,8 @@ export default class Projects extends Component {
         return (
             <div className="block projects">
                 <div className="heading">
-                    <h2>Our Most Popular Courses</h2>
+                    <h2>Our Popular <span className='highlighter'>Courses</span></h2>
+                    <hr />
                 </div>
                 <div className="block-container">
 

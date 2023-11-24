@@ -23,15 +23,15 @@
 
 .certificate .certificate-title{
   display: block;
-  font-size: 37px;
-  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.4;
+  /* font-weight: 500; */
   text-transform: capitalize;
 }
 
-.certificate .heading-highlighter{
-  color: var(--primary);
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+.certificate .highlighter{
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -90,7 +90,8 @@
   }
 
   .certificate .certificate-title {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.4;
   }
 
   .certificate .common-ul-style{
@@ -107,6 +108,19 @@
 
   .certificate .block-container .block-section {
     width: 100%;
+  }
+
+  .certificate .bottom-text{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .certificate .block-container .block-section img{
+    margin: auto;
+    display: block;
+    width: 90%;
   }
 
   /* .certificate .block-container .block-section:nth-child(2) {
@@ -132,10 +146,7 @@
 
   .certificate .block-container .block-section:nth-child(2){
     padding-left: 14px;
-  }
-
-  .certificate .bottom-text{
-    font-size: 16px;
+    padding-top: 25px;
   }
 
   .certificate .heading {
@@ -145,11 +156,18 @@
 
   .certificate .certificate-title {
     font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .certificate .common-ul-style li p {
+    font-size: 14px;
+    margin-bottom: 26px;
   }
 
   .certificate .block-container .block-section img{
     margin: auto;
     display: block;
+    width: 90%;
   }
 
   .certificate .common-ul-style{
@@ -160,21 +178,31 @@
   }
 
   .certificate .common-ul-style li {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding-right: 0;
     width: 90%;
   }
 
   .certificate .common-ul-style li h3 {
     font-size: 18px;
+    letter-spacing: 0.3px;
   }
 
   .certificate .common-ul-style li p {
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: 26px;
+    width: 90%;
+  }
+
+  .certificate .bottom-text{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-size: 21px;
+    text-align: center;
   }
 
   .certificate .common-ul-style li:before{
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
   }
 }

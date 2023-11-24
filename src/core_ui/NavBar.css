@@ -2,7 +2,7 @@
 .navbar {
     height: 68px !important;
     width: 100%;
-    background: var(--f8f9fa);
+    /* background: var(--f8f9fa); */
 }
 
 .navbar .navbar-top {
@@ -23,6 +23,14 @@
 
 .navbar .navbar-top .section .nav-list .nav-link {
     padding: 6px 24px;
+}
+
+.navbar .navbar-top .section .nav-list .nav-link .desktop-icon{
+    display: block;
+}
+
+.navbar .navbar-top .section .nav-list .nav-link .mobile-icon{
+    display: none;
 }
 
 .navbar .navbar-top .section .nav-list a {
@@ -66,6 +74,14 @@
     .navbar .navbar-top .section .nav-list .nav-link {
         padding: 12px 24px;
         text-align: center;
+    }
+
+    .navbar .navbar-top .section .nav-list .nav-link .desktop-icon{
+        display: none;
+    }
+    
+    .navbar .navbar-top .section .nav-list .nav-link .mobile-icon{
+        display: block;
     }
 
     .navbar .navbar-top .section .nav-list .shopping-cart,
@@ -120,11 +136,23 @@
         text-align: center;
     }
 
+    .navbar .navbar-top .section .nav-list .nav-link .desktop-icon{
+        display: none;
+    }
+    
+    .navbar .navbar-top .section .nav-list .nav-link .mobile-icon{
+        display: block;
+    }
+
     .navbar .navbar-top .section .nav-list .shopping-cart,
     .navbar .navbar-top .section .nav-list .nav-btn {
         display: block;
         margin-top: 10px;
         text-align: center;
+    }
+
+    .navbar .navbar-top .section .nav-list .nav-btn{
+        margin: auto;
     }
 
     .navbar .navbar-top .section .menu-toggle {
@@ -151,6 +179,7 @@
         cursor: pointer;
         order: 1;
         font-size: 24px;
+        font-weight: 600;
         padding: 12px;
     }
 }

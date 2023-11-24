@@ -16,8 +16,7 @@ export default class Certificate extends Component {
                         </div>
                         <div className="block-section certificate-container">
                             <div className="heading">
-                                <h2 className='certificate-title'>In just 4 weeks you will Learn</h2>
-                                <span className='certificate-title heading-highlighter'>how to…</span>
+                                <h2 className='certificate-title'>In just 4 weeks you will Learn <span className='highlighter'>how to…</span></h2>
                             </div>
                         
                             <ul className='common-ul-style'>
@@ -38,7 +37,7 @@ export default class Certificate extends Component {
                                     <p className='line-clamp-2'>Learn the simple techniques to get rid of nervousness while talking to a large group of people.</p>
                                 </li>
                             </ul>
-                            <h3 className='bottom-text'>And Finally Get Certified</h3>
+                            <h3 className='bottom-text highlighter'>And Finally Get Certified...</h3>
                         </div>
                     </div>
                 </div>
