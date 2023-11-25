@@ -12,14 +12,14 @@ export default class Faq extends Component {
             </div>
             <div className="block-elements">
               <div className="block-list">
-                <h2>Download the App to Learn Anywhere, Anytime!</h2>
+                <h2>Download the App to Learn <span className='highlighter'>Anywhere, Anytime!</span></h2>
               </div>
             </div>
           </div>
           <div className="block-section grid-2">
             <div className="block-elements">
               <div className="heading">
-                <h2>Frequently Asked Questions</h2>
+                <h2>Frequently Asked <span className='highlighter'>Questions</span></h2>
               </div>
             </div>
             <div className="block-elements">

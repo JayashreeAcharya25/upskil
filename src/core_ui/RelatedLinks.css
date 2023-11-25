@@ -32,20 +32,34 @@
 
 /* Media queries for tablet */
 @media screen and (max-width: 768px) {
+
+    .related-links-module {
+        padding: 30px 0 !important;
+    }
+
     .related-links-module .related-links-container ul {
         flex-direction: column;
     }
     .related-links-module .related-links-container ul li {
+        padding: 15px;
         flex: 0 0 48%; /* Two items per row on tablet */
     }
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 480px) {
+
+    .related-links-module {
+        padding: 28px 0 !important;
+    }
+
     .related-links-module .related-links-container ul {
         flex-direction: column;
     }
+
     .related-links-module .related-links-container ul li {
+        padding: 10px;
         flex: 0 0 100%; /* Full width for mobile, stack items vertically */
     }
+    
 }

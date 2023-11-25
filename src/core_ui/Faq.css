@@ -43,6 +43,7 @@
 
 .faq .image-section .block-list h2{
     font-size: 35px;
+    line-height: 1.4;
 }
 
 .faq .block-section .accordion-flush .accordion-item:first-child{
@@ -51,6 +52,8 @@
 
 .faq .accordion-button{
     font-size: 22px;
+    column-gap: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .faq .accordion-button:not(.collapsed){
@@ -71,6 +74,10 @@
     width: 2rem;
 }
 
+.faq .accordion-body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Media queries for tablet and larger screens */
 @media screen and (min-width: 768px) {
     .faq .block-section {
@@ -79,14 +86,22 @@
         height: auto; /* Adjust height as needed */
     }
 
-    
-
     .faq .block-elements {
         order: 1;
     }
 
     .faq .block-elements .heading {
         text-align: left;
+    }
+
+    .faq .accordion-button{
+        column-gap: 18px;
+        font-weight: 500;
+    }
+
+    .faq .accordion-body{
+        font-size: 18px;
+        padding: 1rem 20px;
     }
 }
 
@@ -95,10 +110,8 @@
 
     .faq {
         height: auto;
-    }
-
-    .faq .heading h2 {
-        font-size: 36px;
+        margin-top: 55px;
+        margin-bottom: 20px;
     }
 
     .faq .block-section {
@@ -111,8 +124,11 @@
     }
 
     .faq .image-section .block-list h2 {
-        font-size: 30px;
+        font-size: 28px;
+        line-height: 1.4;
         margin-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 28px;
     }
 
     .faq .image-section .block-list{
@@ -121,6 +137,7 @@
 
     .faq .image-section{
         flex-direction: column-reverse;
+        margin-bottom: 55px;
     }
 
     .faq .image-section .block-elements img{
@@ -132,7 +149,28 @@
         text-align: left;
     }
 
+    .faq .block-elements .heading h2{
+        font-size: 28px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+
     .faq .accordion-button{
-        font-size: 20px;
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+        column-gap: 10px;
+        font-weight: 500;
+    }
+
+    .faq .accordion-button::after{
+        height: 25px;
+        width: 25px;
+        background-size: 15px auto;
+    }
+
+    .faq .accordion-body{
+        font-size: 14px;
+        padding: 1rem 10px;
     }
 }

@@ -27,11 +27,13 @@
 @media screen and (max-width: 768px) {
 
     .headliner-module {
-        padding: 60px 0;
+        padding: 60px 22px;
     }
 
     .headliner-module h2 {
-        font-size: 32px;
+        font-size: 21px;
+        margin-bottom: 20px;
+        margin-top: 0;
     }
 
     .headliner-module .ctaprimary {
@@ -44,11 +46,13 @@
 @media screen and (max-width: 480px) {
 
     .headliner-module {
-        padding: 40px 0;
+        padding: 40px 22px;
     }
 
     .headliner-module h2 {
-        font-size: 24px;
+        font-size: 21px;
+        margin-bottom: 20px;
+        margin-top: 0;
     }
 
     .headliner-module .ctaprimary {
