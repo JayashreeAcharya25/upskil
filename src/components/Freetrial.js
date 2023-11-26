@@ -5,8 +5,8 @@ export default class Freetrial extends Component {
   render() {
     return (
       <div className='headliner-module'>
-        <h2>Ready to Upskil ? Click the button to start now.</h2>
-        <a href="/" className='ctaprimary'>Start Free Trial</a>
+        <h2><span className='highlighter'>Ready to Upskil?</span> Click the button to start now.</h2>
+        <button className='btn nav-btn'>Start Learning</button>
       </div>
     )
   }

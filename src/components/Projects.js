@@ -7,7 +7,6 @@ export default class Projects extends Component {
             <div className="block projects">
                 <div className="heading">
                     <h2>Our Popular <span className='highlighter'>Courses</span></h2>
-                    <hr />
                 </div>
                 <div className="block-container">
 
@@ -36,7 +35,7 @@ export default class Projects extends Component {
                                 <p>Learn the Step-by-Step process of Finding and Applying for
                                     jobs and Getting Hired Faster
                                 </p>
-                                <button className='btn nav-btn'>View Price</button>
+                                <button className='btn nav-btn'>Learn More</button>
                             </div>
                         </div>
                     </div>

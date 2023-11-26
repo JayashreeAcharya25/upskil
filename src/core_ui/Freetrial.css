@@ -1,6 +1,6 @@
 .headliner-module{
     padding: 80px 0;
-    background-color: #fbeeca;
+    background: #f6f6e9;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -12,22 +12,17 @@
     font-size: 38px;
 }
 
-.headliner-module .ctaprimary{
-    color: #000;
-    text-decoration: none;
-    background: #ffe01b;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 12px 24px;
-    border-radius: 32px;
-    border: 1px solid #000;
+.headliner-module button{
+    font-size: 12px;
+    padding: 8px 20px;
 }
+
 
 /* Media queries for tablet */
 @media screen and (max-width: 768px) {
 
     .headliner-module {
-        padding: 60px 22px;
+        padding: 60px 30px;
     }
 
     .headliner-module h2 {
@@ -36,17 +31,18 @@
         margin-top: 0;
     }
 
-    .headliner-module .ctaprimary {
-        font-size: 12px;
-        padding: 10px 20px;
+    .headliner-module button {
+        font-size: 14px;
+        padding: 11px 26px;
     }
+
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 480px) {
 
     .headliner-module {
-        padding: 40px 22px;
+        padding: 40px 30px;
     }
 
     .headliner-module h2 {
@@ -55,8 +51,9 @@
         margin-top: 0;
     }
 
-    .headliner-module .ctaprimary {
-        font-size: 11px;
-        padding: 8px 16px;
+    .headliner-module button {
+        font-size: 14px;
+        padding: 11px 26px;
     }
+
 }

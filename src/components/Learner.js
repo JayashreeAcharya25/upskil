@@ -8,7 +8,7 @@ export default class Learner extends Component {
                 <div className="block-container">
                     <div className="heading">
                         <h2 className='certificate-title'>Trusted by 1000+ Students <span className='highlighter'>Across Karnataka</span></h2>
-                        <p className='heading-subtext'>Listen to what they have to say..</p>
+                        <p className='heading-subtext'>Listen to what they have to say..&#128515;</p>
                     </div>
                     <div className='carousel-container'>
 

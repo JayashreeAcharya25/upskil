@@ -56,7 +56,7 @@ const NavBar = () => {
                         <li className="nav-link"><a href="/">Digital Products</a></li>
                         <li className="nav-link">
                             <a className='desktop-icon' href="/"><img className='shopping-cart' src={process.env.PUBLIC_URL + './images/shopping_cart_icon.png'} alt="" /></a>
-                            <a className='mobile-icon' href="/">Cart</a></li>
+                            <a className='mobile-icon' href="/"><img className='shopping-cart' src={process.env.PUBLIC_URL + './images/shopping_cart_icon.png'} alt="" />Cart</a></li>
                         <li className="nav-link"><button className='btn nav-btn'>Login</button></li>
                     </ul>
                 </div>

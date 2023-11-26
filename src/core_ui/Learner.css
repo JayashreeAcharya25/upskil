@@ -1,5 +1,5 @@
 .learner{
-    background: #fafafa;
+    background: #f4f4f4;
     padding-bottom: 30px;
 }
 .learner .heading {
@@ -16,7 +16,7 @@
 .learner .heading-highlighter {
   color: var(--primary);
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .learner .heading-subtext{
@@ -33,7 +33,6 @@
 
 .learner .carousel-container .carousel-card{
     width: auto !important;
-    /* height: 311px !important; */
     position: relative !important;
     margin: 0 20px;
     border: 1px solid #ddd;
@@ -162,7 +161,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 19px;
+        font-size: 18px;
     }
   
     .learner .heading-highlighter::after {

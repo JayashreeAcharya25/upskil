@@ -10,6 +10,7 @@ export default class RelatedLinks extends Component {
                         <li className='links'><h3>Related Links</h3></li>
                         <li className='links'><a href='/'>About Us</a></li>
                         <li className='links'><a href='/'>Blogs</a></li>
+                        <li className='links'><a href='/'>Support</a></li>
                     </ul>
                 </div>
             </div>

@@ -12,6 +12,10 @@
 .projects .heading h2{
     font-size: 42px;
     font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #b4b4b4;
+    text-underline-offset: 18px;
 }
 
 .projects .block-container{
@@ -21,9 +25,8 @@
 }
 
 .projects .block-section{
-    margin: 25px auto;
+    padding: 25px 0;
     display: flex;
-    /* width: 90%; */
     column-gap: 30px;
 }
 
@@ -50,54 +53,24 @@
 .projects .block-section .block-elements .block-list button{
     font-size: 12px;
     padding: 8px 20px;
-    /* padding: ; */
 }
 
-/* .projects .block-section .block-elements .block-list .ctaArrow {
-    --shift-distance: 0.25rem;
-    display: inline-block;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 2rem;
-    text-decoration: none !important;
-    padding-right: 2.5rem;
-    transform: translateX(0);
-    z-index: 1;
-    transition: color .15s ease-in-out,transform .3s ease,-webkit-transform .3s ease;
-    border-radius: 2em;
-}
-
-.projects .block-section .block-elements .block-list .ctaArrow:before{
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: calc(100% - 2rem);
-    border-radius: 1rem;
-    height: 2rem;
-    z-index: -1;
-    background-image: url('../assets/images/icon-arrow-right.svg');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 0.4375rem);
-    background-position-y: calc(100% - 0.4375rem);
-    background-size: 1.125rem;
-    background-color: #ffe01b;
-} */
 
 /* Media queries for tablet */
 @media screen and (max-width: 768px) {
 
+    .projects .heading{
+        padding: 25px 0 0;
+    }
+
     .projects .heading h2{
         font-size: 28px;
         line-height: 1.4;
-        /* padding-bottom: 20px; */
     }
 
     .projects .block-section{
         flex-direction: column-reverse;
-        row-gap: 15px;
+        row-gap: 25px;
     }
 
     .projects .block-section .block-elements img {
@@ -111,33 +84,29 @@
     }
 
     .projects .block-section .block-elements .block-list h3{
-        font-size: 18px;
-        letter-spacing: 0.3px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
     }
 
     .projects .block-section .block-elements .block-list p{
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 18px;
     } 
 
-    .projects .block-section .block-elements .block-list .ctaArrow {
-        padding-right: 5px;
-        text-align: center;
+    .projects .block-section .block-elements .block-list button {
+        font-size: 14px;
+        padding: 9px 22px;
     }
 
-    .projects .block-section .block-elements .block-list .ctaArrow:before {
-        right: -32px;
-        left: calc(100% - 0rem);
-        background-size: 14px;
-        height: 32px;
-        background-position-x: calc(100% - 0.57rem);
-        background-position-y: calc(100% - 0.57rem);
-    }
 }
 
 /* Media queries for mobile */
 @media screen and (max-width: 480px) {
 
+    .projects .heading{
+        padding: 25px 0 0;
+    }
+
     .projects .heading h2{
         font-size: 28px;
         line-height: 1.4;
@@ -146,7 +115,12 @@
 
     .projects .block-section{
         flex-direction: column-reverse;
-        row-gap: 15px;
+        row-gap: 25px;
+    }
+
+    .projects .block-section:nth-child(1){
+        padding-bottom: 35px;
+        border-bottom: 1px solid #b4b4b4;
     }
 
     .projects .block-section .block-elements img {
@@ -159,27 +133,18 @@
         text-align: left;
     }
 
-    .projects .block-section .block-elements .block-list .ctaArrow {
-        padding-right: 5px;
-        text-align: center;
+    .projects .block-section .block-elements .block-list button {
+        font-size: 14px;
+        padding: 9px 22px;
     }
 
     .projects .block-section .block-elements .block-list h3{
-        font-size: 18px;
-        letter-spacing: 0.3px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
     }
 
     .projects .block-section .block-elements .block-list p{
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 18px;
     }   
-
-    .projects .block-section .block-elements .block-list .ctaArrow:before {
-        right: -32px;
-        left: calc(100% - 0rem);
-        background-size: 14px;
-        height: 32px;
-        background-position-x: calc(100% - 0.57rem);
-        background-position-y: calc(100% - 0.57rem);
-    }
 }
