@@ -6,7 +6,7 @@ export default class Freetrial extends Component {
     return (
       <div className='headliner-module'>
         <h2><span className='highlighter'>Ready to Upskil?</span> Click the button to start now.</h2>
-        <button className='btn nav-btn'>Start Learning</button>
+        <a className='btn nav-btn' href='https://www.upskil.work/s/store'>Start Learning</a>
       </div>
     )
   }
