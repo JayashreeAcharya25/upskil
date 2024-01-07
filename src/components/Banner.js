@@ -15,8 +15,8 @@ export default class Banner extends Component {
                         </div>
                     </div>
                     <div className="section-elements">
-                        {/* <img className='banner-image' src={process.env.PUBLIC_URL + './images/banner_image.png'} alt="Banner" /> */}
-                        <img className='banner-image' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Home+Page+(765+x+610)+Final+.png" alt="Banner" />
+                        {/* <img className='banner-image' src={https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Home+Page+(765+x+610)+Final+.png} alt="Banner" /> */}
+                        <img className='banner-image' src={process.env.PUBLIC_URL + './images/1_home_page.png'} alt="Banner" />
                     </div>
                 </div>
             </div>

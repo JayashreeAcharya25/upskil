@@ -86,8 +86,8 @@ export default class Faq extends Component {
                   </h2>
                   <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">Yes..!! Your satisfaction is very important for us, You can cancel your course
-                      within 7 days of purchase if you don’t like it. You can email us at
-                      upskil.work@gmail.com & we’ll cancel and refund your money within 3
+                      within 7 days of purchase if you don’t like it. You can email us at 
+                      <a href="mailto:upskil.help@gmail.com" target="_top"> upskil.help@gmail.com</a> & we’ll cancel and refund your money within 3
                       working days. No questions asked!
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default class Faq extends Component {
                     </button>
                   </h2>
                   <div id="flush-collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body">For any issues or queries, please drop an email to upskil.work@gmail.com with the
+                    <div className="accordion-body">For any issues or queries, please drop an email to <a href="mailto:upskil.help@gmail.com" target="_top">upskil.help@gmail.com</a> with the
                       complete issue details.
                     </div>
                   </div>
