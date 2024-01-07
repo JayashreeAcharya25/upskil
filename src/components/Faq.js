@@ -8,7 +8,7 @@ export default class Faq extends Component {
         <div className="block-container">
           <div className="image-section">
             <div className="block-elements">
-              <img src={process.env.PUBLIC_URL + './images/5_download_app.png'} alt="project1" />
+              <img src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Download+the+app+original+clour.png" alt="project1" />
             </div>
             <div className="block-elements">
               <div className="block-list">

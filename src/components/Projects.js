@@ -12,7 +12,7 @@ export default class Projects extends Component {
 
                     <div className="block-section">
                         <div className="block-elements">
-                            <img src={process.env.PUBLIC_URL + './images/4_courses_1.png'} alt="project1" />
+                            <img src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Master+Class+3.0.png" alt="project1" />
                         </div>
                         <div className="block-elements">
                             <div className="block-list">
@@ -27,7 +27,7 @@ export default class Projects extends Component {
                     </div>
                     <div className="block-section">
                         <div className="block-elements">
-                            <img src={process.env.PUBLIC_URL + './images/4_courses_2.png'} alt="project1" />
+                            <img src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Find+and+apply+jobs.png" alt="project1" />
                         </div>
                         <div className="block-elements">
                             <div className="block-list">

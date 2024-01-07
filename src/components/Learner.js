@@ -13,50 +13,14 @@ export default class Learner extends Component {
                     <div className='carousel-container'>
 
                         <div className='carousel-card'>
-                            <img className='testimonial' src={process.env.PUBLIC_URL + './images/3_testimonial_1.png'} alt="testimonial_1" />
-                            {/* <div className='carousel-card-container'>
-                                <div className="quote-wrapper">
-                                    <img src={process.env.PUBLIC_URL + './images/quote.svg'} alt="quote-icon" />
-                                </div>
-                                <div className="carousel-card-body">
-                                    <p>"Choosing the full stack digital marketing course by WsCube Tech helped me a lot in my career. It gave me the skills I needed to excel in today's digital landscape. I'm now confidently managing successful online campaigns for my clients."</p>
-                                </div>
-                                <div className="carousel-card-footer">
-                                    <img src={process.env.PUBLIC_URL + './images/user1.png'} alt="user" />
-                                    <p>Rakesh Kumar</p>
-                                </div>
-                            </div> */}
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+1.png" alt="testimonial_1" />
                         </div>
 
                         <div className='carousel-card'>
-                            <img className='testimonial' src={process.env.PUBLIC_URL + './images/3_testimonial_2.png'} alt="testimonial_2" />
-                            {/* <div className='carousel-card-container'>
-                                <div className="quote-wrapper">
-                                    <img src={process.env.PUBLIC_URL + './images/quote.svg'} alt="quote-icon" />
-                                </div>
-                                <div className="carousel-card-body">
-                                    <p>"Choosing the full stack digital marketing course by WsCube Tech helped me a lot in my career. It gave me the skills I needed to excel in today's digital landscape. I'm now confidently managing successful online campaigns for my clients."</p>
-                                </div>
-                                <div className="carousel-card-footer">
-                                    <img src={process.env.PUBLIC_URL + './images/user2.png'} alt="user" />
-                                    <p>Priya Sharma</p>
-                                </div>
-                            </div> */}
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+2.png" alt="testimonial_2" />
                         </div>
                         <div className='carousel-card'>
-                            <img className='testimonial' src={process.env.PUBLIC_URL + './images/3_testimonial_3.png'} alt="testimonial_3" />
-                            {/* <div className='carousel-card-container'>
-                                <div className="quote-wrapper">
-                                    <img src={process.env.PUBLIC_URL + './images/quote.svg'} alt="quote-icon" />
-                                </div>
-                                <div className="carousel-card-body">
-                                    <p>"Choosing the full stack digital marketing course by WsCube Tech helped me a lot in my career. It gave me the skills I needed to excel in today's digital landscape. I'm now confidently managing successful online campaigns for my clients."</p>
-                                </div>
-                                <div className="carousel-card-footer">
-                                    <img src={process.env.PUBLIC_URL + './images/user1.png'} alt="user" />
-                                    <p>Aryan Singh</p>
-                                </div>
-                            </div> */}
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+3.png" alt="testimonial_3" />
                         </div>
 
                     </div>
