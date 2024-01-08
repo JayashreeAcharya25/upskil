@@ -113,6 +113,9 @@
         margin-top: 55px;
         margin-bottom: 20px;
     }
+    .faq .heading h2{
+        font-size: 37px;
+    }
 
     .faq .block-section {
         display: block;
@@ -124,7 +127,7 @@
     }
 
     .faq .image-section .block-list h2 {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.4;
         margin-bottom: 20px;
         margin-top: 0;
@@ -150,7 +153,7 @@
     }
 
     .faq .block-elements .heading h2{
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.4;
         margin-bottom: 30px;
     }

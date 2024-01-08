@@ -55,6 +55,11 @@
 
 /* Media queries for tablet */
 @media screen and (max-width: 768px) {
+
+    .navbar .navbar-top{
+        align-items: center;
+    }
+    
     .navbar .navbar-top .section .nav-list {
         display: none; /* Hide the nav links by default on smaller screens */
         flex-direction: column;
@@ -116,6 +121,11 @@
 
 /* Media queries for tablet and mobile */
 @media screen and (max-width: 768px) {
+
+    .navbar .navbar-top{
+        align-items: center;
+    }
+
     .navbar .navbar-top .section .nav-list {
         display: none;
         flex-direction: column;
@@ -126,6 +136,10 @@
         background-color: var(--f8f9fa);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         padding-left: 0;
+    }
+
+    .navbar .navbar-top .section img{
+        height: 34px;
     }
 
     .navbar .navbar-top .section .nav-list.active {
