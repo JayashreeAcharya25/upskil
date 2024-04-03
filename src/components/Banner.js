@@ -10,7 +10,7 @@ export default class Banner extends Component {
                         <div className="container">
                             <h2 className='sub_text_top'>Improve Your Communication Skill <span className='highlighter'>In Just 4 Weeks</span></h2>
                             <p className='sub_text_middle'>Crack Job Interviews, Deliver Presentations and Speak to anyone with Confidence.</p>
-                            <div className='banner-button'><a className='btn' href='https://www.upskil.work/s/store'>Start Learning</a></div>
+                            <div className='banner-button'><a className='btn' href='https://courses.upskil.work/courses/Communication-Masterclass-3-Upskil-6606db9805281a27b7d3bc17'>Start Learning</a></div>
                             <span className='sub_text_bottom'>100% Refund Policy | No questions Asked</span>
                         </div>
                     </div>

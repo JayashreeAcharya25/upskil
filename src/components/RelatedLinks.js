@@ -8,8 +8,8 @@ export default class RelatedLinks extends Component {
                 <div className="related-links-container">
                     <ul>
                         <li className='links'><h3>Related Links</h3></li>
-                        <li className='links'><a href='https://www.upskil.work/aboutus'>About Us</a></li>
-                        <li className='links'><a href='https://www.upskil.work/blog'>Blogs</a></li>
+                        <li className='links'><a href='https://courses.upskil.work/aboutus'>About Us</a></li>
+                        <li className='links'><a href='https://courses.upskil.work/blog'>Blogs</a></li>
                         <li className='links'><a href='https://www.upskil.work/contactus'>Support</a></li>
                         <li className='links'><a href='https://www.upskil.work/refundpolicy'>Refund Policy</a></li>
                     </ul>

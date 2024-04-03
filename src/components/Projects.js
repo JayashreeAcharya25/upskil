@@ -4,7 +4,7 @@ import '../core_ui/Projects.css'
 export default class Projects extends Component {
     render() {
         return (
-            <div className="block projects">
+            <div className="block projects" id="courses">
                 <div className="heading">
                     <h2>Our Popular <span className='highlighter'>Courses</span></h2>
                 </div>
@@ -21,7 +21,7 @@ export default class Projects extends Component {
                                     deliver powerful presentations and speak to anyone with full
                                     confidence.
                                 </p>
-                                <button className='btn nav-btn'>View Price</button>
+                                <a href='https://courses.upskil.work/courses/Communication-Masterclass-3-Upskil-6606db9805281a27b7d3bc17' className='btn nav-btn'>View Price</a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                                 <p>Learn the Step-by-Step process of Finding and Applying for
                                     jobs and Getting Hired Faster
                                 </p>
-                                <button className='btn nav-btn'>Learn More</button>
+                                <a href='https://courses.upskil.work/courses/How-To-Find-And-Apply-For-Jobs-The-Right-Way-660793a05b32ca3bba4100d4' className='btn nav-btn'>Learn More</a>
                             </div>
                         </div>
                     </div>
