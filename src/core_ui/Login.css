@@ -1,0 +1,45 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-in-out;
+    /* max-width: 435px; */
+}
+
+.modal .modal-dialog{
+    max-width: 435px;
+}
+
+.modal .modal-body-header h5{
+    margin: 0;
+}
+
+.modal .modal-buttons a {
+    text-decoration: none;
+    color: var(--white);
+    text-align: center;
+    padding: 12px 25px;
+}
+
+.modal .modal-buttons a img{
+    height: 24px;
+}
+
+.modal .modal-buttons a:nth-child(1){
+    background: var(--black);
+}
+
+.modal .modal-buttons a:nth-child(2){
+    background: var(--primary);
+}
+
+.modal .modal-body-footer p{
+ text-align: center;
+ margin-bottom: 0;
+ 
+}
+
+.modal .modal-body-footer p a{
+    text-decoration: none;
+    color: var(--raisin-black);
+    font-weight: 600;
+} 
