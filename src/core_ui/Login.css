@@ -21,7 +21,8 @@
 }
 
 .modal .modal-buttons a img{
-    height: 24px;
+    height: 20px;
+    width: auto;
 }
 
 .modal .modal-buttons a:nth-child(1){

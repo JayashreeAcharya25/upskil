@@ -20,7 +20,7 @@ export default function Login({ toggleModal }) {
               </div>
 
               <div className="modal-body-content mt-4">
-                <div className="modal-buttons  d-flex flex-column gap-2">
+                <div className="modal-buttons  d-flex flex-column gap-3">
                   <a className="d-flex justify-content-center align-items-center gap-2" href="/"> <img className="img-fluid" src={google_icon} alt="google"/>  Continue with Google</a>
                   <a className="d-flex justify-content-center align-items-center gap-2" href="/"> <img className="img-fluid" src={mail_icon} alt="google"/> Continue with email</a>
                 </div>
