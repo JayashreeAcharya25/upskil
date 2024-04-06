@@ -47,7 +47,7 @@ export default class Faq extends Component {
                   </h2>
                   <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">The course content will be explained in kannada with simple
-                      examples and exercises which you can practise at home. </div>
+                      examples and exercises which you can practice at home. </div>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default class Faq extends Component {
                     </button>
                   </h2>
                   <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body">All our courses are Pre-recorded. This means you can learn these
+                    <div className="accordion-body">All our courses are pre-recorded. This means you can learn these
                       courses at your own schedule anywhere anytime. You'll have access to
                       the course 24/7 for 1 complete year.
                     </div>
@@ -100,7 +100,7 @@ export default class Faq extends Component {
                     </button>
                   </h2>
                   <div id="flush-collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body">These Courses are designed to improve both your communication skill And English speaking
+                    <div className="accordion-body">These courses are designed to improve both your communication skill And english speaking
                       skill.
                     </div>
                   </div>

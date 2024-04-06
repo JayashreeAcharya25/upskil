@@ -21,6 +21,10 @@ body{
   --raisin-black: #22211D;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .btn {
   background: var(--primary);
   color: var(--white);
