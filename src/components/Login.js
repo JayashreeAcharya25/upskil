@@ -29,7 +29,7 @@ export default function Login({ toggleModal }) {
                     
                     <div className="d-flex justify-content-between">
                       <button className="arrow-button" onClick={handleCloseLoginEmail}>
-                        <img src={arrowRight} alt="arrow" />
+                        <img src={arrowRight} alt="arrow" title="Login"/>
                       </button>
                     <button
                       type="button"
@@ -54,7 +54,7 @@ export default function Login({ toggleModal }) {
                   </div>
                   <div className="modal-body-footer mt-4">
                     <p className="footer-text">
-                      <a href="/">Forgot Password</a>
+                      <a href="/" title="Forgot Password">Forgot Password</a>
                     </p>
 
                     <button className="mt-4 mb-4" disabled>Next</button>
@@ -78,6 +78,7 @@ export default function Login({ toggleModal }) {
                   <div className="modal-body-content mt-4">
                     <div className="modal-buttons  d-flex flex-column gap-3">
                       <a
+                      title="Login with google"
                         className="d-flex justify-content-center align-items-center gap-2"
                         href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=https%3A%2F%2Fauthenticate.ongraphy.com%2Ft%2Fpublic%2Fgoogle%2Fredirect&response_type=code%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=771122676243-cb11avd40vp8p9mblpks64a2efll2jou.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fauthenticate.ongraphy.com&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow&prompt=select_account&state=https%3A%2F%2Fcourses.upskil.work%7C%7C%7B%22source%22%3A%22digitalProductStore%22%2C%22platform%22%3A%22web%22%2C%22sourceId%22%3A%22%22%7D%7C%7Cnull%7C%7Cnull%7C%7Cnull&service=lso&o2v=1&theme=mn&ddm=0"
                       >
@@ -86,18 +87,21 @@ export default function Login({ toggleModal }) {
                           className="img-fluid"
                           src={google_icon}
                           alt="google"
+                          title="Google"
                         />{" "}
                         Continue with Google
                       </a>
                       <a
                         className="d-flex justify-content-center align-items-center gap-2"
                         onClick={handleLoginEmail}
+                        title="Login with email"
                       >
                         {" "}
                         <img
                           className="img-fluid"
                           src={mail_icon}
                           alt="google"
+                          title="Google"
                         />{" "}
                         Continue with email
                       </a>

@@ -9,7 +9,7 @@ export default class Certificate extends Component {
                     <div className="block-container flex">
                         <div className="block-section">
                            
-                            <img alt='certificate' className='certificate-img'
+                            <img alt='certificate' className='certificate-img' title="Certificate"
                                 src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/certificate+of+participation.png"
                             />
                             

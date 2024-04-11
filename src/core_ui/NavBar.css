@@ -96,6 +96,7 @@
         display: block;
         margin-top: 10px;
         text-align: center;
+        
     }
 
     .navbar .navbar-top .section .menu-toggle {
@@ -177,6 +178,7 @@
 
     .navbar .navbar-top .section .nav-list .nav-btn{
         margin: auto;
+        width: 120px;
     }
 
     .navbar .navbar-top .section .menu-toggle {

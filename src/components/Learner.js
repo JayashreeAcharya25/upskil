@@ -13,14 +13,14 @@ export default class Learner extends Component {
                     <div className='carousel-container'>
 
                         <div className='carousel-card'>
-                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+1.png" alt="testimonial_1" />
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+1.png" alt="testimonial_1" title="Testimonial" />
                         </div>
 
                         <div className='carousel-card'>
-                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+2.png" alt="testimonial_2" />
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+2.png" alt="testimonial_2" title="Testimonial" />
                         </div>
                         <div className='carousel-card'>
-                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+3.png" alt="testimonial_3" />
+                            <img className='testimonial' src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Testimonial+3.png" alt="testimonial_3" title="Testimonial"/>
                         </div>
 
                     </div>

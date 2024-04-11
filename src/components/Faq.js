@@ -8,7 +8,7 @@ export default class Faq extends Component {
         <div className="block-container">
           <div className="image-section">
             <div className="block-elements">
-              <img src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Download+the+app+original+clour.png" alt="project1" />
+              <img src="https://upskilwebpagebucket.s3.ap-south-1.amazonaws.com/Download+the+app+original+clour.png" alt="project1" title="Download" />
             </div>
             <div className="block-elements">
               <div className="block-list">
@@ -87,7 +87,7 @@ export default class Faq extends Component {
                   <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">Yes..!! Your satisfaction is very important for us, You can cancel your course
                       within 7 days of purchase if you don’t like it. You can email us at 
-                      <a href="mailto:upskil.help@gmail.com" target="_top"> upskil.help@gmail.com</a> & we’ll cancel and refund your money within 3
+                      <a href="mailto:upskil.help@gmail.com" target="_top" title="Email"> upskil.help@gmail.com</a> & we’ll cancel and refund your money within 3
                       working days. No questions asked!
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default class Faq extends Component {
                     </button>
                   </h2>
                   <div id="flush-collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body">For any issues or queries, please drop an email to <a href="mailto:upskil.help@gmail.com" target="_top">upskil.help@gmail.com</a> with the
+                    <div className="accordion-body">For any issues or queries, please drop an email to <a href="mailto:upskil.help@gmail.com" target="_top" title="Email">upskil.help@gmail.com</a> with the
                       complete issue details.
                     </div>
                   </div>
