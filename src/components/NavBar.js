@@ -38,7 +38,7 @@ const NavBar = () => {
             <label htmlFor="menu-toggle" className="menu-icon">
               {menuOpen ? "✕" : "☰"}
             </label>
-            <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
+            <ul className={`nav-list pb-4 pb-md-0 ${menuOpen ? "open" : ""}`}>
               <li className="nav-link">
                 <a href="https://courses.upskil.work/s/store" title="Courses">Courses</a>
               </li>
