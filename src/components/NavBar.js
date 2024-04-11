@@ -75,8 +75,11 @@ const NavBar = () => {
                   Cart
                 </a>
               </li>
-              <li className="nav-link">
+              {/* <li className="nav-link">
                 <button className="btn nav-btn" onClick={toggleModal}>Login</button>
+              </li> */}
+              <li className="nav-link">
+                <a className="btn nav-btn" href="https://courses.upskil.work/contactus">Support</a>
               </li>
             </ul>
           </div>

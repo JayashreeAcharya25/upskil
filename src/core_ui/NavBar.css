@@ -46,6 +46,8 @@
 .navbar .navbar-top .section .nav-list .nav-btn {
     padding: 6px 25px;
     font-size: 14px;
+    text-decoration: none;
+    color: var(--white);
 }
 
 .navbar .navbar-top .section .menu-toggle,
